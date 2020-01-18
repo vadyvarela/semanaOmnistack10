@@ -1,0 +1,48 @@
+aside {
+    width: 320px;
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.02);
+    border-radius: 2px;
+    padding: 30px 20px;
+}
+
+aside strong {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+aside form {
+    margin-top: 30px;
+}
+
+aside form .input_block + .input_block {
+    margin-top: 20px;
+}
+
+aside form .input_group {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+aside form .input_block, .input_block {
+    margin-top: 0;
+}
+
+aside from .input_block label {
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+aside from .input_block input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
